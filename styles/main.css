@@ -1,187 +1,224 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
-	background-color: #f5f5ef;
-	margin: 0;
-	padding: 0;
-	font-family: Arial, Geneva, Helvetica, sans-serif;
+    background-color: #f5f5ef;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Geneva, Helvetica, sans-serif;
 }
 
 header {
-	padding-top: 20px;
-	height: 50px;
-	width: 100%;
-	background-color: rgb(55, 147, 188);
+    padding-top: 0.1px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(55, 147, 188);
 }
+
 .logo {
-	vertical-align: top;
-	float: left;
-	margin-left: 25px;
-	background-color: beige;
-	padding: 5px;
-}
-.head {
-	background-color: bisque;
-	float: right;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-.head li {
-	display: inline;
-	margin: 10px;
+    position: absolute;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
 }
 
 #logo {
-	width: 450px;
-	height: 450px;
-	background-color: aliceblue;
+    width: 300px;
+    height: 70px;
+}
+
+.head {
+    background-color: bisque;
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+    padding: 0;
+}
+
+.head li {
+    display: inline;
+    margin: 10px;
 }
 
 .content {
-	width: 100%;
-	height: auto;
-	background-color: blueviolet;
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+}
+
+p {
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .boxes {
-	width: 95%;
-	margin: 0 auto;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .box {
-	display: inline-block;
-	margin: 10px;
-	padding: 20px;
-	max-width: 25%;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    max-width: 25%;
+    min-width: 14%;
 }
 
 /* Index Boxes */
 
+.centerboxes {
+    display: flex;
+    justify-content: center;
+}
+
 .box#box1 {
-	background-color: rgb(255, 195, 71);
+    background-color: rgb(255, 195, 71);
+    text-align: center;
+    border-style: groove;
 }
 
 .box#box2 {
-	background-color: rgb(55, 147, 188);
+    background-color: rgb(55, 147, 188);
+    border-style: groove;
 }
 
 .box#box3 {
-	background-color: rgb(230, 86, 103);
+    background-color: rgb(230, 86, 103);
+    border-style: groove;
+}
+
+.box#box4 {
+    background-color: rgb(255, 195, 71);
+    border-style: groove;
 }
 
 .centerboxes h3 {
-	font-size: 25px;
-	text-align: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+.image-center#image {
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 /* Ticket Boxes */
 
 section.ticboxes h3 {
-	font-size: 25px;
-	text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
 }
 
 section.ticboxes p {
-	color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.ticboxes {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    font-size: 22px;
+    text-align: right;
 }
 
 .box#tbox1 {
-	background-color: rgb(244, 244, 244);
-	border-style: solid;
-	border-color: rgb(55, 147, 188);
-	border-top-width: 35px;
+    background-color: rgb(244, 244, 244);
+    border-style: solid;
+    border-color: rgb(55, 147, 188);
+    border-top-width: 35px;
 }
 
 .box#tbox2 {
-	background-color: rgb(244, 244, 244);
-	border-style: solid;
-	border-color: rgb(255, 195, 71);
-	border-top-width: 35px;
+    background-color: rgb(244, 244, 244);
+    border-style: solid;
+    border-color: rgb(255, 195, 71);
+    border-top-width: 35px;
 }
 
 .box#tbox3 {
-	background-color: rgb(244, 244, 244);
-	border-style: solid;
-	border-color: rgb(230, 86, 103);
-	border-top-width: 35px;
+    background-color: rgb(244, 244, 244);
+    border-style: solid;
+    border-color: rgb(230, 86, 103);
+    border-top-width: 35px;
 }
 
 /* Attractions Boxes */
 
+.attrboxes {
+    display: flex;
+    justify-content: center;
+}
+
 .box#abox1 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-	background-color: rgb(244, 244, 244);
-	border-style: solid;
-	border-color: rgb(255, 195, 71);
+    background-color: rgb(244, 244, 244);
+    border-style: solid;
+    border-color: rgb(255, 195, 71);
 }
 
 .box#abox1 h3 {
-	background-color: rgb(255, 195, 71);
-	color: white;
-	text-align: center;
+    background-color: rgb(255, 195, 71);
+    color: white;
+    text-align: center;
 }
 
 .box#abox2 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-	background-color: rgb(244, 244, 244);
-	border-style: solid;
-	border-color: rgb(55, 147, 188);
+    background-color: rgb(244, 244, 244);
+    border-style: solid;
+    border-color: rgb(55, 147, 188);
 }
 
 .box#abox2 h3 {
-	background-color: rgb(55, 147, 188);
-	color: white;
-	text-align: center;
+    background-color: rgb(55, 147, 188);
+    color: white;
+    text-align: center;
 }
 
 .box#abox3 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-	background-color: rgb(244, 244, 244);
-	border-style: solid;
-	border-color: rgb(230, 86, 103);
+    background-color: rgb(244, 244, 244);
+    border-style: solid;
+    border-color: rgb(230, 86, 103);
 }
 
 .box#abox3 h3 {
-	background-color: rgb(230, 86, 103);
-	color: white;
-	text-align: center;
+    background-color: rgb(230, 86, 103);
+    color: white;
+    text-align: center;
 }
 
 h2 {
-	font-size: 25px;
+    font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 footer {
-	height: 50px;
-	background-color: rgb(145, 195, 194);
+    height: 50px;
+    background-color: rgb(145, 195, 194);
 }
 
 .footer-menu {
-	float: left;
+    float: left;
 }
 
 .footer-menu li {
-	display: inline-block;
-	list-style-type: none;
+    display: inline-block;
+    list-style-type: none;
 }
 
 .footer-menu li a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .center {
-	text-align: center;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

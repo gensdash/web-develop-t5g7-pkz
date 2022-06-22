@@ -1,86 +1,102 @@
 <!-- Meta Data -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thrills Adventure Park - Tickets</title>
-  <link rel="stylesheet" href="../styles/main.css">
-  <link rel="stylesheet" href="../styles/nav-bar.css">
-  <script src="../scripts/script.js"></script>
-</head>
-<body id="index" class="home">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Thrills Adventure Park - Tickets</title>
+        <link rel="stylesheet" href="../styles/main.css" />
+        <link rel="stylesheet" href="../styles/nav-bar.css" />
+        <script src="../scripts/script.js"></script>
+    </head>
+    <body id="index" class="home">
+        <!-- Header -->
+        <header>
+            <!-- Logo -->
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/logo.png" id="logo" />
+                </a>
+            </div>
+            <!-- Log In/Sign Up -->
+            <ul class="head">
+                <li><input type="text" name="" id="" placeholder="search bar" /></li>
+                <li>login</li>
+                <li>sign up</li>
+            </ul>
 
-<!-- Header -->
-  <header>
-	<!-- Logo --> 
-      <div class="logo">
-        <a href="../index.html"> 
-			<img src="../assets/logo.png" width="150" height="100">
-        </a>
-      </div>
-	<!-- Log In/Sign Up -->
-      <ul class="head">
-        <li><input type="text" name="" id="" placeholder="search bar"></li>
-        <li>login</li>
-        <li>sign up</li>
-      </ul>
-	  
-<!-- Navigation Bar -->
-<!-- Source nav bar: https://www.w3schools.com/css/css_navbar_horizontal.asp#:~:text=Horizontal%20Navigation%20Bar%20Examples -->
-      <nav>
-	<!-- List of options available in header nav bar -->
-        <ul>
-          <li><a href="attractions.html">Attractions</a></li>
-          <li><a href="tickets.html">Tickets & Passes</a></li>
-        </ul>
-      </nav>
-  </header>
+            <!-- Navigation Bar -->
+            <!-- Source nav bar: https://www.w3schools.com/css/css_navbar_horizontal.asp#:~:text=Horizontal%20Navigation%20Bar%20Examples -->
+            <nav>
+                <!-- List of options available in header nav bar -->
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="attractions.html">Attractions</a></li>
+                    <li><a href="tickets.html">Tickets & Passes</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<!-- Image Banner -->
-  <section id="image" class="image center">
-    <img src="../assets/photo2.jpg" width="1500" height="400">
-  </section>
+        <!-- Image Banner -->
+        <section id="image" class="image-center">
+            <img
+                src="../assets/photo2.jpg"
+                alt="A side view of a white and red striped ferris 
+											   wheel with small purple carts for guests to sit 
+											   in. In front of it is a short tree with bright 
+											   green leaves."
+                width="100%"
+                height="350px"
+            />
+        </section>
 
-<!-- General Info -->
-<section id="info" class="text center">
-  <p class="information">Get access to all of our rides and games with your purchase!</p>
-</section>
+        <!-- General Info -->
+        <section id="info" class="text center">
+            <h1 class="information">
+                Get access to all of our rides and games with your purchase!
+            </h1>
+        </section>
 
-<!-- Ticket Options and Prices -->
-<section id="tickets" class="ticboxes">
-	<!-- Option #1 -->
-        <div class="box limitwidth" id="tbox1">
-          <h3 style="color: rgb(55, 147, 188)">Day Visit Tickets</h3>
-          <p>Spend the day with us! Get access to all of our rides, games and shows for the entire day.</p>
-          <p>$</p>
-		<p style="color: rgb(55, 147, 188); text-align: right">Book Now</p>
-        </div>
-	<!-- Option #2 -->
-        <div class="box limitwidth" id="tbox2">
-          <h3 style="color: rgb(255, 195, 71)">Seasonal Stay Tickets</h3>
-          <p>Stay for the season and get extended access to all of our attractions and amenities</p>
-          <p>$$</p>
-			<p style="color: rgb(255, 195, 71); text-align: right">Book Now</p>
-        </div>
-	<!-- Option #3 -->
-        <div class="box limitwidth" id="tbox3">
-          <h3 style="color: rgb(230, 86, 103)">Life-time Memberships</h3>
-          <p>Become a member and get access to the park every day of the year!</p>
-          <p>$$$</p>
-			<p style="color: rgb(230, 86, 103); text-align: right">Book Now</p>
-        </div>
-    </section>
+        <!-- Ticket Options and Prices -->
+        <section id="tickets" class="ticboxes">
+            <!-- Option #1 -->
+            <div class="box limitwidth" id="tbox1">
+                <h3 style="color: rgb(55, 147, 188);">Day Visit Tickets</h3>
+                <p>
+                    Spend the day with us! Gain access to all of our rides, games, and shows for the
+                    entire day.
+                </p>
+                <p class="price">$44.99</p>
+                <p style="color: rgb(55, 147, 188); text-align: right;"><a href="#">Book Now</a></p>
+            </div>
+            <!-- Option #2 -->
+            <div class="box limitwidth" id="tbox2">
+                <h3 style="color: rgb(255, 195, 71);">Seasonal Stay Tickets</h3>
+                <p>
+                    Stay for the season and gain extended access to all of our attractions and
+                    amenities.
+                </p>
+                <p class="price">$99.99</p>
+                <p style="color: rgb(255, 195, 71); text-align: right;"><a href="#">Book Now</a></p>
+            </div>
+            <!-- Option #3 -->
+            <div class="box limitwidth" id="tbox3">
+                <h3 style="color: rgb(230, 86, 103);">Long-time Memberships</h3>
+                <p>Become a member and gain access to the park every day of the year!</p>
+                <p class="price">$149.99</p>
+                <p style="color: rgb(230, 86, 103); text-align: right;"><a href="#">Book Now</a></p>
+            </div>
+        </section>
 
-<!-- Footer -->
-  <footer>
-	  <!-- List of options available in footer nav bar -->
-    <ul class="footer-menu">
-      <li><a href="#">Languages Listed</a></li>
-      <li><a href="#">Accesibility Options</a></li>
-      <li><a href="#">Contact Us/ Help Menu</a></li>
-    </ul>
-  </footer>
-</body>
+        <!-- Footer -->
+        <footer>
+            <!-- List of options available in footer nav bar -->
+            <ul class="footer-menu">
+                <li><a href="#">Languages Listed</a></li>
+                <li><a href="#">Accesibility Options</a></li>
+                <li><a href="#">Contact Us/ Help Menu</a></li>
+            </ul>
+        </footer>
+    </body>
 </html>

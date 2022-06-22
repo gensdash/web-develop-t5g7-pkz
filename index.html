@@ -1,166 +1,187 @@
 <!-- Meta Data -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thrills Adventure Park</title>
-  <link rel="stylesheet" href="./styles/main.css">
-  <link rel="stylesheet" href="./styles/nav-bar.css">
-  <link rel="stylesheet" href="./styles/slider.css">
-  <script src="./scripts/script.js"></script>
-</head>
-<body id="index" class="home">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Thrills Adventure Park</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic%7cMontserrat:400,700%7cOxygen:400,300,700"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <link rel="stylesheet" href="./styles/nav-bar.css" />
+        <link rel="stylesheet" href="./styles/slider.css" />
+        <script src="./scripts/script.js"></script>
+    </head>
+    <body id="index" class="home">
+        <!-- Header -->
+        <header>
+            <!-- Logo -->
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/logo.png" id="logo" />
+                </a>
+            </div>
+            <!-- Log In/Sign Up -->
+            <ul class="head">
+                <li><input type="text" name="" id="" placeholder="search bar" /></li>
+                <li>login</li>
+                <li>sign up</li>
+            </ul>
+            <!-- Navigation Bar -->
+            <nav>
+                <!-- list of options available in header nav bar -->
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="pages/attractions.html">Attractions</a></li>
+                    <li><a href="pages/tickets.html">Tickets & Passes</a></li>
+                </ul>
+            </nav>
+        </header>
 
-  <!-- Header -->	
-  <header>
-	  <!-- Logo -->
-      <div class="logo">
-        <a href="../index.html"> 
-        <span>Thrills Adventure Park</span>
-        </a>
-      </div>
-	  <!-- Log In/Sign Up -->
-      <ul class="head">
-        <li><input type="text" name="" id="" placeholder="search bar"></li>
-        <li>login</li>
-        <li>sign up</li>
-      </ul>
-	  <!-- Navigation Bar -->	 
-      <!--
-        Navigation Bar Source:
-        https://www.w3schools.com/css/css_navbar_horizontal.asp#:~:text=Horizontal%20Navigation%20Bar%20Examples
-        -->
-      <nav>
-		<!-- list of options available in header nav bar -->  
-        <ul>
-          <li><a href="pages/attractions.html">Attractions</a></li>
-          <li><a href="pages/tickets.html">Tickets & Passes</a></li>
-        </ul>
-      </nav>
-  </header>
-
-  <section id="content" class="body">
-    <!--
-      Slider source:
-      https://www.espai.es/blog/2020/11/como-hacer-un-slider-solo-con-html-y-css/
-    -->
-	  
-	<!-- Slider begins  -->  
-    <div class="wrapper">
-      <div class="slider" id="slider">
-        <ul class="slides">
-		  <!-- Slide #1 -->
-          <li class="slide" id="slide1">
-            <a href="#">
-              <p class="caption">Fun for the whole family</p>
-              <img src="./assets/photo1.jpg" alt="A tall, yellow swing ride, mid-use. Sections
+        <section id="content" class="body">
+            <!-- Slider begins  -->
+            <div class="wrapper">
+                <div class="slider" id="slider">
+                    <ul class="slides">
+                        <!-- Slide #1 -->
+                        <li class="slide" id="slide1">
+                            <a href="#">
+                                <p class="caption">Fun for the whole family</p>
+                                <img
+                                    src="./assets/photo1.jpg"
+                                    alt="A tall, yellow swing ride, mid-use. Sections
 												  of the ride are brightly lit with a yellow
 												  glow. In the background, there are several
 												  other amusement park attractions and a 
-												  mostly clear evening sky.">
-            </a>
-          </li>
-		  <!-- Slide #2 -->	
-          <li class="slide" id="slide2">
-            <a href="#">
-              <p class="caption">Have a great time</p>
-              <img src="./assets/photo2.jpg" alt="A side view of a white and red striped ferris 
+												  mostly clear evening sky."
+                                />
+                            </a>
+                        </li>
+                        <!-- Slide #2 -->
+                        <li class="slide" id="slide2">
+                            <a href="#">
+                                <p class="caption">Have a great time</p>
+                                <img
+                                    src="./assets/photo2.jpg"
+                                    alt="A side view of a white and red striped ferris 
 											   wheel with small purple carts for guests to sit 
 											   in. In front of it is a short tree with bright 
-											   green leaves.">
-            </a>
-          </li>
-		  <!-- Slide #3 -->
-          <li class="slide" id="slide3">
-            <a href="#">
-              <p class="caption">Delicious dining options</p>
-              <img src="./assets/photo3.jpg" alt="A tall suspended walking strip that looks
+											   green leaves."
+                                />
+                            </a>
+                        </li>
+                        <!-- Slide #3 -->
+                        <li class="slide" id="slide3">
+                            <a href="#">
+                                <p class="caption">Delicious dining options</p>
+                                <img
+                                    src="./assets/photo3.jpg"
+                                    alt="A tall suspended walking strip that looks
 											   like a roller coaster with hand rails. In the
 											   background there is a gorgeous yellow and blue
-											   sky as the sun is beginning to set.">
-            </a>
-          </li>
-		  <!-- Slide #4 -->
-          <li class="slide" id="slide4">
-            <a href="#">
-              <p class="caption">Post About Us!</p>
-              <img src="./assets/photo4.jpg" alt="A close up shot of three fiberglass horses with
+											   sky as the sun is beginning to set."
+                                />
+                            </a>
+                        </li>
+                        <!-- Slide #4 -->
+                        <li class="slide" id="slide4">
+                            <a href="#">
+                                <p class="caption">Post About Us!</p>
+                                <img
+                                    src="./assets/photo4.jpg"
+                                    alt="A close up shot of three fiberglass horses with
 											   colorful saddles and bridles on a white carousel
-											   decorated with gold trim.">
-            </a>
-          </li>
-		  <!-- Slide #5 -->	
-          <li class="slide" id="slide5">
-            <a href="#">
-              <p class="caption">Special occasions</p>
-              <img src="./assets/photo5.jpg" alt="A large spin ride with a long row of yellow seats.
+											   decorated with gold trim."
+                                />
+                            </a>
+                        </li>
+                        <!-- Slide #5 -->
+                        <li class="slide" id="slide5">
+                            <a href="#">
+                                <p class="caption">Special occasions</p>
+                                <img
+                                    src="./assets/photo5.jpg"
+                                    alt="A large spin ride with a long row of yellow seats.
 												  Behind the seats, the Name Discovery is 
 												  displayed in lights at the top of a large 
 												  vibrantly colored mural of rainbows, stars, and 
 												  people. In the foreground there is metal railing 
-												  where a queue can form.">
-            </a>
-          </li>
-        </ul>
-		<!-- Slider Order -->  
-        <ul class="slider-controller">
-          <li><a href="#slider1">&bullet;</a></li>
-          <li><a href="#slider2">&bullet;</a></li>
-          <li><a href="#slider3">&bullet;</a></li>
-          <li><a href="#slider4">&bullet;</a></li>
-          <li><a href="#slider5">&bullet;</a></li>
-        </ul>
-      </div>
-		
-	  <!-- Information Boxes -->
-      <section class="centerboxes">
-		<!-- Box #1 -->  
-        <div class="box" id="box1">
-          <h3>Park hours</h3>
-			<p><strong>Sun:</strong> 12 PM - 8 PM</p>
-			<p><strong>Mon:</strong> 10 AM - 7 PM</p>
-			<p><strong>Tue:</strong> 10 AM - 7 PM</p>
-			<p><strong>Wed:</strong> 10 AM - 7 PM</p>
-			<p><strong>Thu:</strong> 10 AM - 7 PM</p>
-			<p><strong>Fri:</strong> 8 AM - 9 PM</p>
-			<p><strong>Sat:</strong> 8 AM - 9 PM</p>
-			
-        </div>
-		<!-- Box #2 -->    
-        <div class="box" id="box2">
-          <h3>Park News</h3>
-			<p><strong>Don't miss out on these upcoming special events!</strong></p>
-			<p><strong>June 27th - </strong>Come celebrate the 5th anniversary of Thrill's 
-				Adventure Park™! Click <a href="/index.html">here</a> to learn about the
-				park's beginning and six college students' dream.</p>
-			<p><strong>July 4th - </strong>There's no better way to celebrate America's 
-				birthday than roller coasters and fireworks! Click <a href="/index.html">here</a>
-				for more information.</p>
-        </div>
-		<!-- Box #3 -->    
-        <div class="box" id="box3">
-          <h3>Big Group?</h3>
-			<p><strong>No Biggie!</strong> Thrill's Adventure Park™ offers several 
-				options to accommodate larger groups. Click <a href="/index.html">here</a> to 
-				plan your party, company get-together, or special event with ease!</p>
-        </div>
-		<!-- Park Map -->  
-		  
-		  <img src="./assets/map.jpg" width="200" height="300">
-    </section>
-    </div>
- </section>
+												  where a queue can form."
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Slider Order -->
+                    <ul class="slider-controller">
+                        <li><a href="#slider1">&bullet;</a></li>
+                        <li><a href="#slider2">&bullet;</a></li>
+                        <li><a href="#slider3">&bullet;</a></li>
+                        <li><a href="#slider4">&bullet;</a></li>
+                        <li><a href="#slider5">&bullet;</a></li>
+                    </ul>
+                </div>
 
-  <!-- Footer -->	
-  <footer>
-	<!-- Footer Nav Bar options --> 
-    <ul class="footer-menu">
-      <li><a href="#">Languages Listed</a></li>
-      <li><a href="#">Accesibility Options</a></li>
-      <li><a href="#">Contact Us/ Help Menu</a></li>
-    </ul>
-  </footer>
-</body>
+                <!-- Information Boxes -->
+                <section class="centerboxes">
+                    <!-- Box #1 -->
+                    <div class="box" id="box1">
+                        <h3>Park hours</h3>
+                        <p><strong>Sun:</strong> 12 PM - 8 PM</p>
+                        <p><strong>Mon:</strong> 10 AM - 7 PM</p>
+                        <p><strong>Tue:</strong> 10 AM - 7 PM</p>
+                        <p><strong>Wed:</strong> 10 AM - 7 PM</p>
+                        <p><strong>Thu:</strong> 10 AM - 7 PM</p>
+                        <p><strong>Fri:</strong> 8 AM - 9 PM</p>
+                        <p><strong>Sat:</strong> 8 AM - 9 PM</p>
+                    </div>
+                    <!-- Box #2 -->
+                    <div class="box" id="box2">
+                        <h3>Park News</h3>
+                        <p><strong>Don't miss out on these upcoming special events!</strong></p>
+                        <p>
+                            <strong>June 27th - </strong>Come celebrate the 5th anniversary of
+                            Thrill's Adventure Park™! Find out more about the park's beginning and
+                            six college students' dream on our
+                            <a href="/index.html">Origin's Page</a>
+                        </p>
+                        <p>
+                            <strong>July 4th - </strong>There's no better way to celebrate America's
+                            birthday than roller coasters and fireworks! Visit our
+                            <a href="/index.html">Upcoming Events Page</a> for more information
+                            about current and future events.
+                        </p>
+                    </div>
+                    <!-- Box #3 -->
+                    <div class="box" id="box3">
+                        <h3>Big Group?</h3>
+                        <p>
+                            <strong>No Biggie!</strong> Thrill's Adventure Park™ offers several
+                            options to accommodate larger groups. Check out our
+                            <a href="/index.html">Group Planning Page</a> to organize your party,
+                            company get-together, or special event with ease!
+                        </p>
+                    </div>
+                    <!-- Box #4 -->
+                    <div class="box" id="box4">
+                        <h3>Park Map</h3>
+                        <img src="./assets/map.jpg" class="center" width="85%" height="80%" />
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <!-- Footer Nav Bar options -->
+            <ul class="footer-menu">
+                <li><a href="#">Languages Listed</a></li>
+                <li><a href="#">Accesibility Options</a></li>
+                <li><a href="#">Contact Us/ Help Menu</a></li>
+            </ul>
+        </footer>
+    </body>
 </html>
