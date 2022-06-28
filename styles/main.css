@@ -203,7 +203,7 @@ footer {
 }
 
 .footer-menu {
-    float: left;
+	text-align: center;
 }
 
 .footer-menu li {
